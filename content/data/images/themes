@@ -1,0 +1,3 @@
+touch content/data/.gitkeep
+touch content/images/.gitkeep
+touch content/themes/.gitkeep
