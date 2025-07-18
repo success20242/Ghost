@@ -1,0 +1,8 @@
+{
+  "name": "ghost-on-railway",
+  "version": "1.0.0",
+  "description": "Ghost blog running on Railway",
+  "scripts": {
+    "start": "node current/index.js"
+  }
+}
