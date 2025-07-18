@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ghost-blog
+    env: docker
+    dockerComposePath: ./docker-compose.yml
+    # You can specify a branch or commit:
+    branch: main
+    # Optional: persistent disk for content storage
+    disk:
+      name: ghost-content-disk
+      sizeGb: 5
+    # Instance specs
+    plan: starter  # or whatever plan you want
+    region: oregon  # pick your preferred region
